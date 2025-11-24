@@ -23,50 +23,50 @@ export default function Catalog() {
   const products: Product[] = [
     {
       id: 1,
-      name: 'Диван "Комфорт"',
-      price: 45900,
-      category: 'Диваны',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/05ab1f5c-2044-4e52-8307-b128f14329c8.jpg',
+      name: 'Дверь "Милан" белый мат',
+      price: 8900,
+      category: 'Глухие',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/01ad58d4-538c-450e-8151-5c8d579960fa.jpg',
       inStock: true,
     },
     {
       id: 2,
-      name: 'Кресло "Уют"',
-      price: 18900,
-      category: 'Кресла',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/83c4781d-85ff-4933-8aa9-748c17ccba05.jpg',
+      name: 'Дверь "Венеция" со стеклом',
+      price: 12500,
+      category: 'Со стеклом',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/31d9f965-6bf0-438d-8a0d-e8615c42d13b.jpg',
       inStock: true,
     },
     {
       id: 3,
-      name: 'Обеденный стол "Классик"',
-      price: 32900,
-      category: 'Столы',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/5ea48167-012f-4975-9b8a-9f7a60ee9666.jpg',
+      name: 'Дверь "Берлин" серый дуб',
+      price: 10200,
+      category: 'Современные',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/e13835af-cacb-4259-82a2-3b7276d9841d.jpg',
       inStock: true,
     },
     {
       id: 4,
-      name: 'Кровать "Сон"',
-      price: 54900,
-      category: 'Кровати',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/05ab1f5c-2044-4e52-8307-b128f14329c8.jpg',
+      name: 'Дверь "Рим" классика',
+      price: 11800,
+      category: 'Классические',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/31d9f965-6bf0-438d-8a0d-e8615c42d13b.jpg',
       inStock: true,
     },
     {
       id: 5,
-      name: 'Угловой диван "Престиж"',
-      price: 67900,
-      category: 'Диваны',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/05ab1f5c-2044-4e52-8307-b128f14329c8.jpg',
+      name: 'Дверь "Париж" эмаль белая',
+      price: 13900,
+      category: 'Современные',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/01ad58d4-538c-450e-8151-5c8d579960fa.jpg',
       inStock: true,
     },
     {
       id: 6,
-      name: 'Кресло-качалка "Релакс"',
-      price: 24900,
-      category: 'Кресла',
-      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/83c4781d-85ff-4933-8aa9-748c17ccba05.jpg',
+      name: 'Дверь "Лондон" со стеклом',
+      price: 14500,
+      category: 'Со стеклом',
+      image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/31d9f965-6bf0-438d-8a0d-e8615c42d13b.jpg',
       inStock: false,
     },
   ];
@@ -87,10 +87,10 @@ export default function Catalog() {
         <section className="py-12 bg-muted/30">
           <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              Каталог мебели
+              Каталог дверей
             </h1>
             <p className="text-lg text-muted-foreground">
-              Найдите идеальную мебель для вашего дома
+              Найдите идеальную дверь для вашего интерьера
             </p>
           </div>
         </section>

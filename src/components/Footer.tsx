@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">VELLDORIS</h3>
             <p className="text-sm text-muted-foreground">
-              Современная мебель для вашего дома. Качество и стиль в каждой детали.
+              Производство межкомнатных дверей премиум-класса. Фабрика в Санкт-Петербурге.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <Icon name="MapPin" size={16} />
-                <span>Москва, ул. Примерная, 123</span>
+                <span>Санкт-Петербург</span>
               </li>
             </ul>
           </div>

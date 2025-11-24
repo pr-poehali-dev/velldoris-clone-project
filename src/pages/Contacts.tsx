@@ -24,7 +24,7 @@ export default function Contacts() {
     {
       icon: 'MapPin',
       title: 'Адрес',
-      content: 'Москва, ул. Примерная, д. 123',
+      content: 'Санкт-Петербург',
       link: null,
     },
     {

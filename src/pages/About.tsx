@@ -41,17 +41,18 @@ export default function About() {
             <h2 className="text-3xl font-heading font-bold mb-6">Наша история</h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                VELLDORIS — это больше, чем просто мебельный магазин. Мы создаем
-                пространства, где каждый элемент интерьера рассказывает свою историю.
+                VELLDORIS — фабрика межкомнатных дверей премиум-класса с собственным
+                производством в Санкт-Петербурге. Мы создаем двери, которые становятся
+                частью вашего интерьера.
               </p>
               <p>
-                С 2010 года мы помогаем тысячам семей обустроить дома своей мечты.
-                Наша философия проста: качественная мебель должна быть доступной каждому.
+                С 2010 года мы помогаем тысячам семей создавать уютные пространства.
+                Наша философия: качественные двери должны быть доступными каждому.
               </p>
               <p>
-                Мы работаем напрямую с производителями, что позволяет нам предлагать
-                лучшие цены без компромиссов в качестве. Каждое изделие проходит
-                строгий контроль перед тем, как попасть в наш каталог.
+                Полный цикл производства на собственной фабрике позволяет нам контролировать
+                каждый этап: от подбора материалов до финальной отделки. Каждая дверь
+                проходит строгий контроль качества.
               </p>
             </div>
           </div>
@@ -94,7 +95,7 @@ export default function About() {
                 <div className="text-4xl font-heading font-bold text-primary mb-2">
                   14+
                 </div>
-                <div className="text-muted-foreground">лет на рынке</div>
+                <div className="text-muted-foreground">лет производства</div>
               </div>
               <div>
                 <div className="text-4xl font-heading font-bold text-primary mb-2">
@@ -106,7 +107,7 @@ export default function About() {
                 <div className="text-4xl font-heading font-bold text-primary mb-2">
                   500+
                 </div>
-                <div className="text-muted-foreground">моделей мебели</div>
+                <div className="text-muted-foreground">моделей дверей</div>
               </div>
               <div>
                 <div className="text-4xl font-heading font-bold text-primary mb-2">

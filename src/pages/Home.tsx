@@ -7,22 +7,22 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   const categories = [
-    { name: 'Диваны', icon: 'Sofa', count: 45 },
-    { name: 'Кресла', icon: 'Armchair', count: 32 },
-    { name: 'Столы', icon: 'Table', count: 28 },
-    { name: 'Кровати', icon: 'Bed', count: 38 },
+    { name: 'Классические', icon: 'DoorOpen', count: 45 },
+    { name: 'Современные', icon: 'Maximize2', count: 38 },
+    { name: 'Со стеклом', icon: 'Grid3x3', count: 32 },
+    { name: 'Глухие', icon: 'SquareStack', count: 28 },
   ];
 
   const features = [
     {
       icon: 'Truck',
-      title: 'Быстрая доставка',
-      description: 'Доставим по Москве за 1-2 дня',
+      title: 'Доставка по России',
+      description: 'Доставка по всей России собственной службой',
     },
     {
       icon: 'Shield',
-      title: 'Гарантия качества',
-      description: 'Официальная гарантия на всю мебель',
+      title: 'Собственное производство',
+      description: 'Фабрика в Санкт-Петербурге с контролем качества',
     },
     {
       icon: 'CreditCard',
@@ -30,9 +30,9 @@ export default function Home() {
       description: 'Оплата картой, наличными или в рассрочку',
     },
     {
-      icon: 'HeartHandshake',
-      title: 'Индивидуальный подход',
-      description: 'Поможем подобрать идеальную мебель',
+      icon: 'Palette',
+      title: 'Широкий выбор',
+      description: 'Более 500 моделей дверей и 50 вариантов отделки',
     },
   ];
 
@@ -44,11 +44,11 @@ export default function Home() {
         <section className="relative h-[600px] flex items-center justify-center bg-gradient-to-br from-primary/10 via-background to-accent/5">
           <div className="container mx-auto px-4 text-center animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6">
-              Мебель для дома<br />вашей мечты
+              Межкомнатные двери<br />премиум-класса
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Современный дизайн, высокое качество и доступные цены. 
-              Создайте уютное пространство с VELLDORIS.
+              Собственное производство межкомнатных дверей в Санкт-Петербурге.
+              Высокое качество, последние интерьерные тренды.
             </p>
             <div className="flex gap-4 justify-center">
               <Button size="lg" asChild className="text-lg">
@@ -66,7 +66,7 @@ export default function Home() {
 
         <section className="py-20 container mx-auto px-4">
           <h2 className="text-4xl font-heading font-bold text-center mb-12">
-            Категории мебели
+            Категории дверей
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {categories.map((category, index) => (
@@ -125,7 +125,7 @@ export default function Home() {
               Готовы обновить интерьер?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Посетите наш каталог и найдите идеальную мебель для вашего дома
+              Посетите наш каталог и найдите идеальные двери для вашего дома
             </p>
             <Button size="lg" asChild className="text-lg">
               <Link to="/catalog">

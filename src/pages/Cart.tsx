@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 export default function Cart() {
   const cartItems = [
-    { id: 1, name: 'Диван "Комфорт"', price: 45900, quantity: 1, image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/05ab1f5c-2044-4e52-8307-b128f14329c8.jpg' },
-    { id: 2, name: 'Кресло "Уют"', price: 18900, quantity: 2, image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/83c4781d-85ff-4933-8aa9-748c17ccba05.jpg' },
+    { id: 1, name: 'Дверь "Милан" белый мат', price: 8900, quantity: 1, image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/01ad58d4-538c-450e-8151-5c8d579960fa.jpg' },
+    { id: 2, name: 'Дверь "Венеция" со стеклом', price: 12500, quantity: 2, image: 'https://cdn.poehali.dev/projects/d15b8b88-32ee-4397-8ff1-5dfdc3335286/files/31d9f965-6bf0-438d-8a0d-e8615c42d13b.jpg' },
   ];
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
